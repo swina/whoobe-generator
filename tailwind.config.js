@@ -213,7 +213,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      gridTemplateColumns : ['responsive']
+    },
   },
   plugins: [],
  }
